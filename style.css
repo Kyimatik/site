@@ -44,3 +44,35 @@ samp {
   font-family: "Tagesschrift", sans-serif;
   font-size: 16px;
 }
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 800px; /* расстояние между таблицей и меню */
+}
+
+#menu {
+  padding-top: 20px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu li {
+  margin-bottom: 10px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #0050aa;
+  font-weight: bold;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+.current-reading {
+  margin-top: 40px; /* увеличивай или уменьшай число по вкусу */
+}
